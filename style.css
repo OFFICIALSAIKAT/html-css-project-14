@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Shadow&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.dance-image{
+    height: 720px;
+    width: 480px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 20px 80px;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.heading-2{
+    display: flex;
+    margin: 0px 200px;
+}
+.ingredient{
+    padding-left: 20px;
+    font-size: 40px;
+    padding-top: 30px;
+    
+    
+}
+.right-container{
+    height:400px ;
+}
+.heading-1 h1{
+    font-size: 120px;
+    height: 100px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:4.5rem;
+    top: 4rem;
+}
+.icon{
+ height: 30px;
+ padding: 15px;
+}
+.button-small{
+    padding: 10px 0px;
+}
+.button-small button{
+    height: 50px;
+    width: 340px;
+    margin-left: 510px;
+    background-color:rgb(52, 50, 50);
+    color: white;
+    font-size: 20px;
+    
+}
+.right-container{
+    margin: 0px 60px;
+}
+.service-content{
+    font-size: 20px;
+    padding: 16px 0px;
+}
+.service-content{
+    color: rgb(75, 71, 71);
+
+}
+.right-image{
+    height: 220px;
+    width: 460px;
+    padding-left: 40px;
+    
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.right{
+    width: 600px;
+
+    
+   
+}
+.right p{
+    font-size: 20px;
+    margin-right: 200px;
+    padding-left: 40px;
+}   
+.left{
+    padding-left: 20px;
+}
+.font{
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 133px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
