@@ -18,12 +18,14 @@
 }
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 0px;
     margin: 20px 80px;
 }
 .list{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 .list-item{
@@ -32,6 +34,7 @@
 }
 .heading-2{
     display: flex;
+    flex-wrap: wrap;
     margin: 0px 200px;
 }
 .ingredient{
@@ -112,7 +115,22 @@
     font-family: 'Londrina Shadow', cursive;
     font-size: 133px;
 }
+@media only screen and (max-width: 1446px){
+    .dance-image{
+       display: none;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        float: right;
+        padding: 15px 0;
+    }
+    .social-media img{
+        padding: 25px ;
+    }
 
+}
 
 
 
