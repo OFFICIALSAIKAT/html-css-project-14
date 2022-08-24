@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Shadow&display=swap');
 
+
+
 *{
     margin: 0px;
     padding: 0px
@@ -21,7 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 0px;
-    margin: 20px 80px;
+    margin: 10px 80px;
 }
 .list{
     display: flex;
@@ -40,15 +42,15 @@
 .ingredient{
     padding-left: 20px;
     font-size: 40px;
-    padding-top: 30px;
+    margin-top: 30px;
     
     
 }
 .right-container{
     height:400px ;
 }
-.heading-1 h1{
-    font-size: 120px;
+.heading-2 h1{
+    font-size: 100px;
     height: 100px;
 }
 
@@ -113,7 +115,7 @@
 }
 .font{
     font-family: 'Londrina Shadow', cursive;
-    font-size: 133px;
+    font-size: 111px;
 }
 @media only screen and (max-width: 1446px){
     .dance-image{
